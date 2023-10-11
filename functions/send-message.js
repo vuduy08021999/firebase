@@ -39,14 +39,14 @@ export function onRequest(context) {
   firebase.sendNotification({
         "notification": {
             "title": "Thông báo test",
-            "body": "test 1 2 3 4 5"
+            "body": "test 1 2 3 4 4"
         },
         "data": {
             "mes_type": "MESSAGE",
             "mes_icon": "WARNING",
             "mes_control":"{\"controller\": \"idxn_v\", \"folder\":\"Form\", \"memvars\": {\"xtype\": 1, \"id\": 21189}, \"action\":\"VIEW\"}"
         },
-        "token": "cQv8bBGhR_-tWky2QWBhUP:APA91bEzfCakxveACxfCW7evd3Hq851HlAabfVOajTcg_6rwNUVDX50rf7mwqsxziUZ18jZFMUQuYRW6gI1ulrdl-CgyIFjvcwuQp38ojbRcfFcuAJknC7eJp3NsV6QE0lU28BduQS_x"
+        "token": "eYFwkD3FScCgSzNFXC7VV0:APA91bH6tqExhBrYzOEu0CnRKsq6MD1adoO79l_sJq6DnHgviC1SFa_pktcbuK0xKKIL6400siuxqBlRu8HSWcNFP_VhTgeWqZ9mAxagTwLhcXNwcMj9cFmwesEGbobaV4pBfyXJ5Vxb"
   })
   return new Response("Hello, world!")
 }
