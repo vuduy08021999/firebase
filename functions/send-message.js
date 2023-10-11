@@ -1,5 +1,5 @@
 // Import the required dependencies
-const admin = require('firebase-admin');
+const admin = require('firebase-admin'); 
 
 class FirebaseService {
  app;
